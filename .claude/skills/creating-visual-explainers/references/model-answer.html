@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta property="og:title" content="美味しいインスタントコーヒーの入れ方">
+  <meta property="og:description" content="いつもの粉が見違える。分量・湯温・混ぜ方の3つを整えるだけで、インスタントコーヒーは驚くほど美味しくなる。メーカー公式の推奨値をもとにした実践ガイド。">
+  <meta property="og:type" content="article">
+  <title>美味しいインスタントコーヒーの入れ方</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23FFFFFF'/><rect x='8' y='8' width='84' height='84' rx='14' fill='none' stroke='%233B82F6' stroke-width='4'/><circle cx='32' cy='40' r='10' fill='%233B82F6' opacity='0.8'/><circle cx='68' cy='40' r='10' fill='%2360A5FA' opacity='0.8'/><rect x='25' y='62' width='50' height='6' rx='3' fill='%2394A3B8' opacity='0.6'/><rect x='30' y='74' width='40' height='6' rx='3' fill='%2394A3B8' opacity='0.3'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            zu: {
+              bg: '#FFFFFF',
+              surface: '#F8FAFC',
+              hover: '#F1F5F9',
+              border: '#E2E8F0',
+              accent: '#3B82F6',
+              'accent-light': '#2563EB',
+              text: '#1E293B',
+              muted: '#64748B',
+              dim: '#94A3B8',
+              positive: '#10B981',
+              negative: '#EF4444',
+              warning: '#F59E0B',
+            }
+          },
+          fontFamily: {
+            sans: ['"Noto Sans JP"', '"Hiragino Sans"', '"Hiragino Kaku Gothic ProN"', '"Yu Gothic UI"', '"Meiryo"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { border-top: none !important; }
+      .rounded-xl { break-inside: avoid; }
+      .md\:flex-row { flex-direction: row !important; }
+      .md\:hidden { display: none !important; }
+      .hidden.md\:block { display: block !important; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+      .sm\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+      .md\:mb-20 { margin-bottom: 5rem !important; }
+      .md\:py-16 { padding-top: 4rem !important; padding-bottom: 4rem !important; }
+      .bg-clip-text.text-transparent {
+        -webkit-background-clip: initial !important;
+        background-clip: initial !important;
+        color: #2563EB !important;
+        -webkit-text-fill-color: #2563EB !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-zu-bg text-slate-600 antialiased leading-relaxed border-t-4 border-zu-accent">
+  <div class="no-print max-w-3xl mx-auto px-5 pt-2 flex justify-end">
+    <button onclick="window.print()" class="flex items-center gap-1.5 text-xs text-zu-dim hover:text-zu-accent transition-colors cursor-pointer">
+      <i data-lucide="download" class="w-3.5 h-3.5"></i>
+      PDF
+    </button>
+  </div>
+  <main class="max-w-3xl mx-auto px-5 py-10 md:py-16">
+<!-- CONTENT_START -->
+
+<!-- ============================================================ -->
+<!--  HERO                                                         -->
+<!-- ============================================================ -->
+<div class="text-center mb-10 md:mb-12">
+  <div class="inline-flex items-center gap-1.5 bg-zu-accent/10 text-zu-accent-light px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide mb-6">
+    <i data-lucide="coffee" class="w-3.5 h-3.5"></i>
+    ライフスタイル
+  </div>
+  <h1 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tight mb-6">
+    美味しい<span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">インスタントコーヒー</span>の入れ方
+  </h1>
+  <p class="text-lg text-zu-muted max-w-xl mx-auto leading-relaxed">
+    同じ粉、同じカップ。それでも味は変わります。<br>
+    分かれ目は ──
+  </p>
+</div>
+
+
+<!-- ============================================================ -->
+<!--  ONE-PAGE SUMMARY                                             -->
+<!-- ============================================================ -->
+<div class="bg-zu-surface border border-zu-border rounded-2xl p-6 md:p-10 mb-6">
+  <div class="text-center mb-8 md:mb-10">
+    <p class="text-xl md:text-2xl font-black text-slate-900 mb-2">
+      味の9割は<span class="text-zu-accent-light">「お湯の温度」</span>で決まる
+    </p>
+    <p class="text-sm text-zu-muted">
+      沸騰したてを直接注いだ瞬間、香りは飛んでしまう
+    </p>
+  </div>
+
+  <!-- Core flow: 粉 → お湯 → 混ぜる -->
+  <div class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-0 mb-8">
+    <!-- 粉 -->
+    <div class="flex flex-col items-center w-36 p-3">
+      <div class="w-14 h-14 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center mb-2.5">
+        <i data-lucide="utensils" class="w-7 h-7 text-amber-600"></i>
+      </div>
+      <div class="font-bold text-slate-900 text-sm">粉</div>
+      <div class="text-[11px] text-amber-600/80 mt-0.5">小さじ山盛り1杯（約2g）</div>
+    </div>
+
+    <!-- Arrow 1 -->
+    <div class="flex items-center justify-center md:w-16 py-1 md:py-0">
+      <div class="flex flex-col items-center gap-0.5">
+        <i data-lucide="arrow-right" class="w-5 h-5 text-zu-accent hidden md:block"></i>
+        <i data-lucide="arrow-down" class="w-5 h-5 text-zu-accent md:hidden"></i>
+      </div>
+    </div>
+
+    <!-- お湯（centerpiece） -->
+    <div class="flex flex-col items-center w-44 p-4 bg-zu-accent/5 border-2 border-zu-accent/20 rounded-2xl">
+      <div class="w-16 h-16 rounded-2xl bg-zu-accent/15 border-2 border-zu-accent/30 flex items-center justify-center mb-2.5">
+        <i data-lucide="thermometer" class="w-8 h-8 text-zu-accent-light"></i>
+      </div>
+      <div class="font-black text-zu-accent-light text-2xl leading-none mb-1">85〜90<span class="text-base">℃</span></div>
+      <div class="text-[11px] text-zu-muted mb-2">140ml</div>
+      <div class="text-[10px] text-zu-muted bg-white rounded-lg px-2.5 py-1 border border-zu-border/50 text-center">沸騰後、フタを開けて1〜2分</div>
+    </div>
+
+    <!-- Arrow 2 -->
+    <div class="flex items-center justify-center md:w-16 py-1 md:py-0">
+      <div class="flex flex-col items-center gap-0.5">
+        <i data-lucide="arrow-right" class="w-5 h-5 text-zu-accent hidden md:block"></i>
+        <i data-lucide="arrow-down" class="w-5 h-5 text-zu-accent md:hidden"></i>
+      </div>
+    </div>
+
+    <!-- 混ぜる -->
+    <div class="flex flex-col items-center w-36 p-3">
+      <div class="w-14 h-14 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mb-2.5">
+        <i data-lucide="rotate-cw" class="w-7 h-7 text-emerald-600"></i>
+      </div>
+      <div class="font-bold text-slate-900 text-sm">よく混ぜる</div>
+      <div class="text-[11px] text-emerald-600/80 mt-0.5">溶け残りゼロまで</div>
+    </div>
+  </div>
+
+  <!-- Result -->
+  <div class="flex justify-center mb-8">
+    <div class="flex items-center gap-2 text-xs text-emerald-600 bg-emerald-500/5 border border-emerald-500/15 rounded-full px-4 py-1.5">
+      <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+      香りが立ち、雑味のない一杯になる
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="flex items-center gap-4 mb-6">
+    <div class="flex-1 border-t border-zu-border/50"></div>
+    <div class="text-[11px] text-zu-dim font-medium">必要なのはこれだけ</div>
+    <div class="flex-1 border-t border-zu-border/50"></div>
+  </div>
+
+  <!-- Tools as pills -->
+  <div class="flex flex-wrap justify-center gap-2">
+    <div class="flex items-center gap-1.5 bg-white border border-zu-border rounded-full px-3.5 py-1.5 text-xs text-slate-700">
+      <i data-lucide="coffee" class="w-3.5 h-3.5 text-amber-600"></i>
+      マグカップ
+    </div>
+    <div class="flex items-center gap-1.5 bg-white border border-zu-border rounded-full px-3.5 py-1.5 text-xs text-slate-700">
+      <i data-lucide="flame" class="w-3.5 h-3.5 text-orange-500"></i>
+      電気ケトル
+    </div>
+    <div class="flex items-center gap-1.5 bg-white border border-zu-border rounded-full px-3.5 py-1.5 text-xs text-slate-700">
+      <i data-lucide="utensils" class="w-3.5 h-3.5 text-slate-500"></i>
+      乾いたスプーン
+    </div>
+    <div class="flex items-center gap-1.5 bg-white border border-zu-border rounded-full px-3.5 py-1.5 text-xs text-slate-700">
+      <i data-lucide="timer" class="w-3.5 h-3.5 text-blue-500"></i>
+      待つ1〜2分
+    </div>
+  </div>
+</div>
+
+<p class="text-center text-zu-muted mb-16 md:mb-20">
+  ここから、この3ステップをひとつずつ解説していきます。
+</p>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 1: 黄金比                                            -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/10 flex-shrink-0">
+      <i data-lucide="scale" class="w-5 h-5 text-blue-600"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">まず覚えるのは、この3つの数字だけ</h2>
+  </div>
+
+  <p class="mb-8 leading-relaxed">
+    メーカー各社が公式に推奨している分量は、驚くほど一致しています。目分量でやっている人ほど、この3つを合わせるだけで味が変わります。
+  </p>
+
+  <!-- 数字カード -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 text-center">
+      <div class="w-10 h-10 rounded-lg bg-amber-500/10 flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="utensils" class="w-5 h-5 text-amber-600"></i>
+      </div>
+      <div class="text-3xl font-black text-amber-600 leading-none mb-2">2<span class="text-lg">g</span></div>
+      <div class="text-sm font-bold text-slate-900 mb-1">コーヒーの粉</div>
+      <div class="text-xs text-zu-muted">ティースプーン山盛り1杯</div>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 text-center">
+      <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="droplets" class="w-5 h-5 text-blue-600"></i>
+      </div>
+      <div class="text-3xl font-black text-blue-600 leading-none mb-2">140<span class="text-lg">ml</span></div>
+      <div class="text-sm font-bold text-slate-900 mb-1">お湯の量</div>
+      <div class="text-xs text-zu-muted">一般的なカップ8分目くらい</div>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 text-center">
+      <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="thermometer" class="w-5 h-5 text-red-600"></i>
+      </div>
+      <div class="text-3xl font-black text-red-500 leading-none mb-2">90<span class="text-lg">℃</span></div>
+      <div class="text-sm font-bold text-slate-900 mb-1">お湯の温度</div>
+      <div class="text-xs text-zu-muted">沸騰（100℃）ではない</div>
+    </div>
+  </div>
+
+  <p class="text-xs text-zu-dim mb-8">
+    出典: <a href="https://agf.ajinomoto.co.jp/enjoy/ippai/instant/" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">味の素AGF「インスタントコーヒーのおいしい作り方」</a> ／ <a href="https://instant-coffee.ajca.or.jp/nyumon/howto_1/" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">全日本コーヒー協会「インスタントコーヒーの入れ方 ホット」</a>
+  </p>
+
+  <div class="bg-zu-accent/5 border border-zu-accent/20 rounded-xl p-5">
+    <div class="flex items-start gap-3">
+      <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-zu-accent/10 flex-shrink-0 mt-0.5">
+        <i data-lucide="lightbulb" class="w-4 h-4 text-zu-accent-light"></i>
+      </div>
+      <div>
+        <p class="font-bold text-zu-accent-light mb-1">ここがポイント</p>
+        <p class="text-zu-muted leading-relaxed">
+          薄いと感じるなら、<strong class="text-slate-800">お湯を減らすのではなく粉を増やす</strong>のが正解です。お湯を減らすと1杯の量まで減ってしまいます。逆に濃すぎるときは粉を控えめに。<strong class="text-slate-800">「粉で濃さを、お湯で量を」調整する</strong>と覚えておくと迷いません。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 2: 温度                                              -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-red-500/10 flex-shrink-0">
+      <i data-lucide="thermometer" class="w-5 h-5 text-red-600"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">なぜ「沸騰したお湯」ではダメなのか</h2>
+  </div>
+
+  <p class="mb-8 leading-relaxed">
+    多くの人がやってしまう最大の失敗が、<strong class="text-slate-900">沸いたばかりのお湯をそのまま注ぐこと</strong>です。温度が高すぎると、コーヒーの良い香りの成分（アロマ＝揮発性の香り成分。熱で空気中に逃げやすい）が一気に飛び、苦味だけが残ります。
+  </p>
+
+  <!-- 温度帯バー -->
+  <div class="bg-zu-surface border border-zu-border rounded-xl p-6 md:p-8 mb-8">
+    <h3 class="text-lg font-bold text-slate-900 text-center mb-8">お湯の温度帯と、カップの中で起きること</h3>
+
+    <div class="grid grid-cols-3 gap-1 mb-4">
+      <div class="h-6 rounded-l-full bg-slate-300"></div>
+      <div class="h-6 bg-gradient-to-r from-emerald-400 to-emerald-500"></div>
+      <div class="h-6 rounded-r-full bg-gradient-to-r from-orange-400 to-red-500"></div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-3">
+      <!-- 低い -->
+      <div class="text-center">
+        <div class="text-sm font-black text-slate-500 mb-2">〜75℃</div>
+        <div class="bg-white border border-zu-border rounded-lg p-3 h-full">
+          <i data-lucide="alert-triangle" class="w-4 h-4 text-slate-400 mx-auto mb-2"></i>
+          <p class="text-xs text-zu-muted leading-relaxed">溶け残りが出て、<strong class="text-slate-700">ザラつき</strong>と薄さが残る</p>
+        </div>
+      </div>
+      <!-- 適温 -->
+      <div class="text-center">
+        <div class="text-sm font-black text-emerald-600 mb-2">80〜90℃</div>
+        <div class="bg-emerald-500/5 border-2 border-emerald-500/30 rounded-lg p-3 h-full">
+          <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 mx-auto mb-2"></i>
+          <p class="text-xs text-emerald-700 leading-relaxed font-medium">しっかり溶けて、<strong>香りも残る</strong>ベストゾーン</p>
+        </div>
+      </div>
+      <!-- 高い -->
+      <div class="text-center">
+        <div class="text-sm font-black text-red-500 mb-2">95℃〜</div>
+        <div class="bg-white border border-zu-border rounded-lg p-3 h-full">
+          <i data-lucide="flame" class="w-4 h-4 text-red-500 mx-auto mb-2"></i>
+          <p class="text-xs text-zu-muted leading-relaxed">香りが飛び、<strong class="text-red-600">苦味・雑味</strong>が立つ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="mb-6 leading-relaxed">
+    面白いことに、メーカーによって推奨温度に少し幅があります。<strong class="text-slate-900">どちらも「沸騰させない」という点では一致</strong>しているので、この幅の中に収まっていれば問題ありません。
+  </p>
+
+  <!-- メーカー見解の対比 -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6">
+      <div class="inline-flex items-center gap-1.5 bg-blue-500/10 text-blue-600 px-3 py-1 rounded-full text-xs font-bold tracking-wide mb-4">
+        <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+        AGF ／ 全日本コーヒー協会
+      </div>
+      <div class="text-2xl font-black text-slate-900 mb-2">約90℃</div>
+      <p class="text-sm text-zu-muted leading-relaxed">
+        「沸騰させた後、少しおいて90℃程度のお湯をお使いください」。しっかり溶かしきることを重視した設定です。
+      </p>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6">
+      <div class="inline-flex items-center gap-1.5 bg-purple-500/10 text-purple-600 px-3 py-1 rounded-full text-xs font-bold tracking-wide mb-4">
+        <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+        ネスカフェ
+      </div>
+      <div class="text-2xl font-black text-slate-900 mb-2">約80℃</div>
+      <p class="text-sm text-zu-muted leading-relaxed">
+        「一般的には、80℃の（沸騰しない）お湯をおすすめしています」。香りを守ることをより重視した設定です。
+      </p>
+    </div>
+  </div>
+
+  <p class="text-xs text-zu-dim mb-8">
+    出典: <a href="https://agf.ajinomoto.co.jp/enjoy/ippai/instant/" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">味の素AGF</a> ／ <a href="https://nescafe.nestle.jp/coffee-culture/knowledge/make-the-best-instant-coffee" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">ネスカフェ公式「自宅での最高のインスタントコーヒーの作り方」</a>
+  </p>
+
+  <!-- 温度計なしで測る方法 -->
+  <div class="bg-zu-accent/5 border border-zu-accent/20 rounded-xl p-6">
+    <div class="flex items-center gap-2 mb-4">
+      <i data-lucide="timer" class="w-5 h-5 text-zu-accent-light"></i>
+      <p class="font-bold text-zu-accent-light">温度計がなくても大丈夫</p>
+    </div>
+    <p class="text-zu-muted leading-relaxed mb-4">
+      家庭でいちいち測る必要はありません。<strong class="text-slate-800">ケトルが沸いたらフタを開けて1〜2分そのまま置く</strong>。これだけで、だいたい85〜90℃に落ち着きます。
+    </p>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-0 bg-white border border-zu-border rounded-lg p-4">
+      <div class="text-center px-4">
+        <div class="text-xs text-zu-dim mb-1">沸騰直後</div>
+        <div class="text-lg font-black text-red-500">100℃</div>
+      </div>
+      <i data-lucide="arrow-right" class="w-4 h-4 text-zu-dim hidden sm:block"></i>
+      <i data-lucide="arrow-down" class="w-4 h-4 text-zu-dim sm:hidden"></i>
+      <div class="text-center px-4">
+        <div class="text-xs text-zu-dim mb-1">1分後</div>
+        <div class="text-lg font-black text-orange-500">約92℃</div>
+      </div>
+      <i data-lucide="arrow-right" class="w-4 h-4 text-zu-dim hidden sm:block"></i>
+      <i data-lucide="arrow-down" class="w-4 h-4 text-zu-dim sm:hidden"></i>
+      <div class="text-center px-4">
+        <div class="text-xs text-zu-dim mb-1">2分後</div>
+        <div class="text-lg font-black text-emerald-600">約87℃</div>
+      </div>
+    </div>
+    <p class="text-[11px] text-zu-dim mt-3 text-center">※ ケトルの容量・室温で前後します。目安として使ってください</p>
+  </div>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 3: 手順                                              -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/10 flex-shrink-0">
+      <i data-lucide="list-ordered" class="w-5 h-5 text-emerald-600"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">実際の手順 — 4ステップ</h2>
+  </div>
+
+  <div class="space-y-4 mb-8">
+    <!-- Step 1 -->
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-blue-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-blue-500 leading-none flex-shrink-0 mt-1">01</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-2">
+            <i data-lucide="coffee" class="w-4 h-4 text-blue-600"></i>
+            <h3 class="font-bold text-slate-900">カップを温めておく</h3>
+          </div>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            お湯を少し入れて回し、捨てるだけ。<strong class="text-slate-800">冷たいカップは注いだ瞬間にお湯の温度を5〜10℃奪います。</strong>手間のわりに効果が大きい、いちばん見落とされている工程です。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-amber-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-amber-500 leading-none flex-shrink-0 mt-1">02</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-2">
+            <i data-lucide="utensils" class="w-4 h-4 text-amber-600"></i>
+            <h3 class="font-bold text-slate-900">乾いたスプーンで粉を2g入れる</h3>
+          </div>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            全日本コーヒー協会も<strong class="text-slate-800">「乾いた清潔なスプーン」</strong>を明記しています。濡れたスプーンを瓶に入れると、残った粉が湿気を吸って固まり、次の一杯から風味が落ちます。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-red-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-red-500 leading-none flex-shrink-0 mt-1">03</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-2">
+            <i data-lucide="droplets" class="w-4 h-4 text-red-600"></i>
+            <h3 class="font-bold text-slate-900">85〜90℃のお湯を140ml注ぐ</h3>
+          </div>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            勢いよく一気に注がず、<strong class="text-slate-800">粉の上にゆっくり落とす</strong>ように。最初に少量だけ注いで粉全体を湿らせてから残りを足すと、溶け残りがさらに減ります。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-emerald-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-emerald-500 leading-none flex-shrink-0 mt-1">04</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-2">
+            <i data-lucide="rotate-cw" class="w-4 h-4 text-emerald-600"></i>
+            <h3 class="font-bold text-slate-900">溶けきるまで、よくかき混ぜる</h3>
+          </div>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            公式の手順でも共通して<strong class="text-slate-800">「溶けるまでよくかき混ぜる」</strong>と書かれています。2〜3回混ぜて終わりにせず、カップの底に沈殿がないところまで。ここを雑にすると、最後の一口だけ極端に苦くなります。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="text-xs text-zu-dim">
+    出典: <a href="https://instant-coffee.ajca.or.jp/nyumon/howto_1/" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">全日本コーヒー協会「インスタントコーヒーの入れ方 ホット」</a> ／ <a href="https://www.keycoffee.co.jp/experience/recipe/detail/instantcoffee/" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">キーコーヒー「プロがおすすめするインスタントコーヒーが格別においしくなるいれ方」</a>
+  </p>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 4: 「練る」は必要か                                   -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-purple-500/10 flex-shrink-0">
+      <i data-lucide="help-circle" class="w-5 h-5 text-purple-600"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">よく聞く「少量の水で練る」は必要？</h2>
+  </div>
+
+  <p class="mb-8 leading-relaxed">
+    ネットでよく紹介される裏ワザに、<strong class="text-slate-900">「先に少量の水やお湯で粉をペースト状に練ってから、お湯を注ぐ」</strong>というものがあります。結論から言うと、いまは<strong class="text-slate-900">必須ではありません</strong>。
+  </p>
+
+  <div class="bg-zu-surface border border-zu-border rounded-xl overflow-hidden mb-8">
+    <div class="flex items-center gap-3 px-6 py-4 bg-red-500/5 border-b border-zu-border/50">
+      <div class="w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center flex-shrink-0">
+        <i data-lucide="x" class="w-3.5 h-3.5 text-red-600"></i>
+      </div>
+      <h3 class="font-bold text-red-700 text-sm">昔の常識: 「練らないと溶け残るから、必ず練るべき」</h3>
+    </div>
+    <div class="px-6 py-5">
+      <div class="flex items-start gap-3">
+        <div class="w-6 h-6 rounded-full bg-emerald-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+          <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i>
+        </div>
+        <div>
+          <p class="text-sm font-bold text-emerald-700 mb-2">いまは:</p>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            キーコーヒーは公式レシピの中で、<strong class="text-slate-800">「近年のインスタントコーヒーはそのままお湯を注いでも十分に溶けやすく作られているので、練らなくてもおいしいコーヒーが楽しめます」</strong>と明言しています。製法が進化し、溶けにくさという前提そのものがなくなりました。「練る」は、溶け残りが実際に気になるときの<strong class="text-slate-800">オプション</strong>として持っておけば十分です。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-zu-accent/5 border border-zu-accent/20 rounded-xl p-5">
+    <div class="flex items-start gap-3">
+      <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-zu-accent/10 flex-shrink-0 mt-0.5">
+        <i data-lucide="lightbulb" class="w-4 h-4 text-zu-accent-light"></i>
+      </div>
+      <div>
+        <p class="font-bold text-zu-accent-light mb-1">練るより先に見直すべきこと</p>
+        <p class="text-zu-muted leading-relaxed">
+          溶け残りが出るなら、原因は練っていないことではなく<strong class="text-slate-800">お湯がぬるすぎる</strong>か、<strong class="text-slate-800">粉が湿気で固まっている</strong>可能性が高いです。裏ワザを足すより、温度と保存を直すほうが効きます。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 5: よくある失敗                                       -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-amber-500/10 flex-shrink-0">
+      <i data-lucide="alert-triangle" class="w-5 h-5 text-amber-600"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">味を落としている3つの習慣</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="bg-red-500/5 border border-red-500/20 rounded-xl p-6">
+      <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center mb-4">
+        <i data-lucide="flame" class="w-5 h-5 text-red-600"></i>
+      </div>
+      <h3 class="font-bold text-red-700 mb-2">沸騰したてを直接注ぐ</h3>
+      <p class="text-sm text-zu-muted leading-relaxed">
+        いちばん多い失敗。香りが飛んで苦味だけが残ります。<strong class="text-slate-800">1〜2分待つ</strong>だけで解決します。
+      </p>
+    </div>
+
+    <div class="bg-red-500/5 border border-red-500/20 rounded-xl p-6">
+      <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center mb-4">
+        <i data-lucide="droplet" class="w-5 h-5 text-red-600"></i>
+      </div>
+      <h3 class="font-bold text-red-700 mb-2">濡れたスプーンを瓶に入れる</h3>
+      <p class="text-sm text-zu-muted leading-relaxed">
+        残りの粉が湿気を吸って固まり、溶けにくくなります。<strong class="text-slate-800">瓶に入れるスプーンは必ず乾いたもの</strong>を。
+      </p>
+    </div>
+
+    <div class="bg-red-500/5 border border-red-500/20 rounded-xl p-6">
+      <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center mb-4">
+        <i data-lucide="wind" class="w-5 h-5 text-red-600"></i>
+      </div>
+      <h3 class="font-bold text-red-700 mb-2">フタを開けたまま置いておく</h3>
+      <p class="text-sm text-zu-muted leading-relaxed">
+        コーヒーの香りは空気中へ逃げ、湿気は入ってきます。<strong class="text-slate-800">使ったらすぐ閉める</strong>。それだけです。
+      </p>
+    </div>
+
+    <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-xl p-6">
+      <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center mb-4">
+        <i data-lucide="glass-water" class="w-5 h-5 text-emerald-600"></i>
+      </div>
+      <h3 class="font-bold text-emerald-700 mb-2">おまけ: 水は軟水を選ぶ</h3>
+      <p class="text-sm text-zu-muted leading-relaxed">
+        ネスカフェ公式いわく<strong class="text-slate-800">「コーヒーの味がより引き立つのは軟水」</strong>。日本の水道水はほぼ軟水なので、そのままで大丈夫です。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 6: アレンジ                                          -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-cyan-500/10 flex-shrink-0">
+      <i data-lucide="sparkles" class="w-5 h-5 text-cyan-600"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">そのまま使えるアレンジ2つ</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+    <!-- カフェオレ -->
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6">
+      <div class="flex items-center gap-2 mb-5">
+        <i data-lucide="milk" class="w-5 h-5 text-amber-600"></i>
+        <h3 class="font-bold text-slate-900">ホットカフェオレ</h3>
+      </div>
+      <div class="space-y-3">
+        <div class="flex items-center gap-3 bg-white border border-zu-border rounded-lg px-4 py-2.5">
+          <span class="text-xs text-zu-dim w-16 flex-shrink-0">粉</span>
+          <span class="text-sm font-bold text-slate-900">約2g（山盛り1杯）</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white border border-zu-border rounded-lg px-4 py-2.5">
+          <span class="text-xs text-zu-dim w-16 flex-shrink-0">牛乳</span>
+          <span class="text-sm font-bold text-slate-900">約70℃に温めて140ml</span>
+        </div>
+      </div>
+      <p class="text-sm text-zu-muted leading-relaxed mt-4">
+        温めた牛乳に直接粉を入れて溶かします。<strong class="text-slate-800">牛乳は沸騰させない</strong>のがコツ。膜が張り、風味も落ちます。
+      </p>
+    </div>
+
+    <!-- アイス -->
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6">
+      <div class="flex items-center gap-2 mb-5">
+        <i data-lucide="snowflake" class="w-5 h-5 text-blue-500"></i>
+        <h3 class="font-bold text-slate-900">アイスコーヒー</h3>
+      </div>
+      <div class="space-y-3">
+        <div class="flex items-center gap-3 bg-white border border-zu-border rounded-lg px-4 py-2.5">
+          <span class="text-xs text-zu-dim w-16 flex-shrink-0">粉</span>
+          <span class="text-sm font-bold text-slate-900">約2g（山盛り1杯）</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white border border-zu-border rounded-lg px-4 py-2.5">
+          <span class="text-xs text-zu-dim w-16 flex-shrink-0">お湯</span>
+          <span class="text-sm font-bold text-slate-900">約90ml で先に溶かす</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white border border-zu-border rounded-lg px-4 py-2.5">
+          <span class="text-xs text-zu-dim w-16 flex-shrink-0">氷</span>
+          <span class="text-sm font-bold text-slate-900">適量で一気に冷やす</span>
+        </div>
+      </div>
+      <p class="text-sm text-zu-muted leading-relaxed mt-4">
+        <strong class="text-slate-800">濃いめに溶かしてから氷で急冷</strong>するのがポイント。氷が溶ける分を見越して、お湯は少なめにします。
+      </p>
+    </div>
+  </div>
+
+  <p class="text-xs text-zu-dim">
+    出典: <a href="https://agf.ajinomoto.co.jp/enjoy/ippai/instant/" class="underline decoration-zu-dim/30 hover:text-zu-accent transition-colors">味の素AGF「インスタントコーヒーのおいしい作り方」</a>
+  </p>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  SECTION 7: まとめ                                            -->
+<!-- ============================================================ -->
+<section class="mb-16 md:mb-20">
+  <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-zu-accent/10 flex-shrink-0">
+      <i data-lucide="check-circle" class="w-5 h-5 text-zu-accent-light"></i>
+    </div>
+    <h2 class="text-xl md:text-2xl font-bold text-slate-900">まとめ — 明日から変えるのは3つだけ</h2>
+  </div>
+
+  <div class="space-y-4 mb-10">
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-red-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-red-500 leading-none flex-shrink-0 mt-1">01</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">沸いたら1〜2分待つ</h3>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            100℃のまま注がない。85〜90℃に落とすだけで、香りが残り苦味が減ります。今日から効果が出る、いちばん簡単な改善です。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-blue-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-blue-500 leading-none flex-shrink-0 mt-1">02</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">粉2g : お湯140ml を守る</h3>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            目分量をやめて一度だけ実測すると、自分のスプーンとカップの感覚がつかめます。濃さは粉で、量はお湯で調整。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-xl p-6 border-l-4 border-l-emerald-500">
+      <div class="flex items-start gap-4">
+        <div class="text-2xl font-black text-emerald-500 leading-none flex-shrink-0 mt-1">03</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">カップを温め、乾いたスプーンを使う</h3>
+          <p class="text-sm text-zu-muted leading-relaxed">
+            地味ですが、この2つで「注いだ瞬間の温度低下」と「粉の劣化」という2大要因が同時に消えます。裏ワザより効きます。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center bg-gradient-to-b from-zu-accent/5 to-transparent border border-zu-accent/10 rounded-xl p-8 md:p-10">
+    <i data-lucide="coffee" class="w-8 h-8 text-zu-accent mx-auto mb-4"></i>
+    <p class="text-lg font-bold text-slate-900 mb-3">高い豆を買う前に、いまの粉の入れ方を直す。</p>
+    <p class="text-zu-muted max-w-lg mx-auto leading-relaxed">
+      インスタントコーヒーは「手軽だから味は諦めるもの」ではありません。温度と分量というたった2つの変数を揃えるだけで、同じ瓶の中身がまるで別物になります。次の一杯で、ぜひ1〜2分だけ待ってみてください。
+    </p>
+  </div>
+</section>
+
+
+<!-- ============================================================ -->
+<!--  出典・情報ソース                                              -->
+<!-- ============================================================ -->
+<section>
+  <div class="flex items-center gap-3 mb-6">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-slate-500/10 flex-shrink-0">
+      <i data-lucide="book-open" class="w-5 h-5 text-slate-500"></i>
+    </div>
+    <h2 class="text-lg md:text-xl font-bold text-slate-900">出典・情報ソース</h2>
+  </div>
+
+  <div class="space-y-3 mb-6">
+    <div class="bg-zu-surface border border-zu-border rounded-lg px-5 py-4">
+      <a href="https://agf.ajinomoto.co.jp/enjoy/ippai/instant/" class="text-sm font-bold text-slate-900 hover:text-zu-accent transition-colors underline decoration-zu-dim/30">味の素AGF「インスタントコーヒーのおいしい作り方」</a>
+      <p class="text-xs text-zu-dim mt-1.5">発表: 発表日不明 ／ 取得: 2026年8月6日</p>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-lg px-5 py-4">
+      <a href="https://instant-coffee.ajca.or.jp/nyumon/howto_1/" class="text-sm font-bold text-slate-900 hover:text-zu-accent transition-colors underline decoration-zu-dim/30">全日本コーヒー協会「インスタントコーヒーの入れ方 ホット」</a>
+      <p class="text-xs text-zu-dim mt-1.5">発表: 発表日不明 ／ 取得: 2026年8月6日</p>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-lg px-5 py-4">
+      <a href="https://nescafe.nestle.jp/coffee-culture/knowledge/make-the-best-instant-coffee" class="text-sm font-bold text-slate-900 hover:text-zu-accent transition-colors underline decoration-zu-dim/30">ネスカフェ 公式サイト「自宅での最高のインスタントコーヒーの作り方」</a>
+      <p class="text-xs text-zu-dim mt-1.5">発表: 2024年9月（ページ内素材からの推定・明記なし） ／ 取得: 2026年8月6日</p>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-lg px-5 py-4">
+      <a href="https://www.keycoffee.co.jp/experience/recipe/detail/instantcoffee/" class="text-sm font-bold text-slate-900 hover:text-zu-accent transition-colors underline decoration-zu-dim/30">キーコーヒー「プロがおすすめするインスタントコーヒーが格別においしくなるいれ方」</a>
+      <p class="text-xs text-zu-dim mt-1.5">発表: 2025年3月7日 ／ 取得: 2026年8月6日</p>
+    </div>
+
+    <div class="bg-zu-surface border border-zu-border rounded-lg px-5 py-4">
+      <a href="https://faq-agf.dga.jp/faq_detail.html?id=15" class="text-sm font-bold text-slate-900 hover:text-zu-accent transition-colors underline decoration-zu-dim/30">AGF お客様相談室 FAQ「インスタントコーヒーを使ったおいしい作り方」</a>
+      <p class="text-xs text-zu-dim mt-1.5">発表: 発表日不明 ／ 取得: 2026年8月6日</p>
+    </div>
+  </div>
+
+  <div class="bg-zu-surface border border-zu-border rounded-lg px-5 py-4">
+    <p class="text-sm font-bold text-slate-900 mb-2">この図解の作成日: 2026年8月6日</p>
+    <p class="text-xs text-zu-dim leading-relaxed">
+      この図解は上記の出典を作成日時点で確認してまとめたものです。出典側の情報が更新されている可能性があるため、最新の内容は各出典をご確認ください。なお「沸騰後1〜2分で約87℃」などの冷却時間の目安、およびカップの予熱による温度低下の数値は、ケトルの容量・材質・室温によって変動する一般的な目安です。
+    </p>
+  </div>
+</section>
+
+<!-- CONTENT_END -->
+  </main>
+  <footer class="max-w-3xl mx-auto px-5 pb-10 pt-6 border-t border-zu-border/30">
+    <p class="text-xs text-zu-dim text-center"><!-- ここに自分の名前や組織名を入れられます（空のままでもOK） --></p>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+output/*.html
+deploy-history.log
+.setup-done
+.DS_Store
+node_modules/
