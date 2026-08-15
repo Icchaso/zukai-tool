@@ -8,21 +8,21 @@ AIに「◯◯を図解して」と話しかけるだけで、解説つきの図
 
 ## 必要なもの
 
-- **Claude Code**（AIアシスタント） — 未導入なら公式サイト https://claude.com/claude-code の手順でインストール
+- **VS Code**（無料エディタ） — https://code.visualstudio.com/
+- **Claude Code 拡張機能** — VS Code 左側の拡張機能アイコンから「Claude Code」を検索してインストール
 - **git** — Macは最初から使えます。Windowsは [Git for Windows](https://gitforwindows.org/) を入れてください（このツールが使う Git Bash も一緒に入ります）
 - Node.js や公開サービスのアカウントは、**無くてもAIがセットアップ中に案内・自動導入します**
 
 ## はじめかた
 
-ターミナル（Windowsは Git Bash）で次の3行を実行します:
+1. VS Code でターミナルを開きます（メニュー「ターミナル」→「新しいターミナル」）
+2. 次の1行を貼り付けて Enter:
+   ```bash
+   git clone https://github.com/Icchaso/zukai-tool.git
+   ```
+3. メニュー「ファイル」→「フォルダーを開く」で、いまダウンロードされた `zukai-tool` フォルダを開きます
+4. Claude Code のパネルを開いて、**何でもいいので話しかけてください**（「はじめまして」でOK）
 
-```bash
-git clone https://github.com/Icchaso/zukai-tool.git
-cd zukai-tool
-claude
-```
-
-起動したら、**何でもいいので話しかけてください**（「はじめまして」でOK）。
 初回はAIがツールの説明と、公開用サービス Surge（サージ）の無料アカウント登録を案内します。あなたがやるのは**メールアドレスとパスワードを決めて入力するだけ**です。
 
 ## 使い方の例

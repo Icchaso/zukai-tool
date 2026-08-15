@@ -76,11 +76,13 @@ node --version
 bash .claude/skills/creating-visual-explainers/scripts/deploy-diagram.sh output/{スラッグ}.html {スラッグ}
 ```
 
-**Windows PowerShell で bash が使えない場合**:
+**Windows PowerShell で bash が使えない場合**（surge はフォルダ単位でしか公開できないため、ファイルを直接渡すと `ENOTDIR` で失敗する。一時フォルダに `index.html` として置いてから公開する）:
 
 ```powershell
-npx --yes surge output/{スラッグ}.html --domain diagram-{スラッグ}-{ランダム6桁}.surge.sh
+$t = Join-Path $env:TEMP ("zukai-" + (Get-Random)); New-Item -ItemType Directory -Path $t | Out-Null; Copy-Item "output/{スラッグ}.html" "$t/index.html"; Set-Content "$t/robots.txt" "User-agent: *`nDisallow: /"; npx --yes surge $t --domain "diagram-{スラッグ}-{ランダム6桁}.surge.sh"; Remove-Item -Recurse -Force $t
 ```
+
+このルートで公開した場合は、`deploy-history.log` に「日時 | URL」を1行追記しておく（削除依頼のときに使うため）。
 
 公開ドメインは `diagram-{スラッグ}-{ランダム6桁}.surge.sh`。Surge は認証なしの完全公開なので、URLの推測しにくさが唯一の防御になる。**ランダム部分を外した固定ドメインで公開しないこと。** URLはスクリプトの出力をそのまま使い、推測で書かない。
 
