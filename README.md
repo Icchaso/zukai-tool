@@ -8,20 +8,19 @@ AIに「◯◯を図解して」と話しかけるだけで、解説つきの図
 
 ## 必要なもの
 
-- **VS Code**（無料エディタ） — https://code.visualstudio.com/
-- **Claude Code 拡張機能** — VS Code 左側の拡張機能アイコンから「Claude Code」を検索してインストール
+- **Claude のデスクトップアプリ**（有料プランで Code タブが使えるもの） — https://claude.com/download
+  （VS Code の Claude Code 拡張機能や、ターミナル版の Claude Code でも使えます）
 - **git** — Macは最初から使えます。Windowsは [Git for Windows](https://gitforwindows.org/) を入れてください（このツールが使う Git Bash も一緒に入ります）
 - Node.js や公開サービスのアカウントは、**無くてもAIがセットアップ中に案内・自動導入します**
 
 ## はじめかた
 
-1. VS Code でターミナルを開きます（メニュー「ターミナル」→「新しいターミナル」）
-2. 次の1行を貼り付けて Enter:
-   ```bash
-   git clone https://github.com/Icchaso/zukai-tool.git
-   ```
-3. メニュー「ファイル」→「フォルダーを開く」で、いまダウンロードされた `zukai-tool` フォルダを開きます
-4. Claude Code のパネルを開いて、**「はじめまして」と話しかけてください**
+1. デスクトップアプリの **Code** タブで、道具を置くフォルダ（例: `ai-tools`）を選んだセッションを始めます
+2. 入力欄にこう頼みます: 「https://github.com/Icchaso/zukai-tool.git を、いまのフォルダの中に zukai-tool という名前で受け取ってください」
+3. 左上の「＋」で新しいセッションを始め、フォルダを選ぶボタン →「フォルダを開く…」で、いま受け取った `zukai-tool` フォルダを選びます
+4. その入力欄で、**「はじめまして」と話しかけてください**
+
+（VS Code の場合は、メニュー「ファイル」→「フォルダーを開く」で `zukai-tool` を開き、Claude Code のパネルで話しかけます）
 
 初回は、**あなたの自己紹介ページ**を作るところから始まります。
 名前・何をしている人か・できることなどを聞かれるので、答えられるものだけ答えてください。
